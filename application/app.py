@@ -19,7 +19,7 @@ GROUP_NAME = os.environ.get('GROUP_NAME') or "N&Y"
 # Create a connection to the MySQL database
 db_conn = connections.Connection(
     host= DBHOST,
-    port=DBPORT,
+    port=3306,
     user= DBUSER,
     password= DBPWD,
     db= DATABASE
