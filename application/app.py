@@ -12,7 +12,7 @@ DBUSER = os.environ.get("DBUSER") or "root"
 DBPWD = os.environ.get("DBPWD") or "passwors"
 DATABASE = os.environ.get("DATABASE") or "employees"
 COLOR_FROM_ENV = os.environ.get('APP_COLOR') or "lime"
-DBPORT = int(3306)
+DBPORT = int(os.environ.get("DBPORT", 3306))
 BACKGROUND_IMAGE = os.environ.get("BACKGROUND_IMAGE") or "Invalid Image been passed"
 GROUP_NAME = os.environ.get('GROUP_NAME') or "N&Y"
 
