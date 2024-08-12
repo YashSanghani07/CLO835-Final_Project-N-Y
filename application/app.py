@@ -15,7 +15,7 @@ DBPWD = os.environ.get("DBPWD", "password")
 DATABASE = os.environ.get("DATABASE", "employees")
 DBPORT = int(os.environ.get("DBPORT", 3306))
 COLOR_FROM_ENV = os.environ.get('APP_COLOR', "lime")
-BACKGROUND_IMAGE = os.environ.get("BACKGROUND_IMAGE", "https://mybucketclo835.s3.amazonaws.com/black.jpg")
+BACKGROUND_IMAGE = os.environ.get("BACKGROUND_IMAGE", "https://myawsbucketclo835.s3.amazonaws.com/black.jpg")
 GROUP_NAME = os.environ.get('GROUP_NAME', "N&Y")
 
 # Create a connection to the MySQL database
