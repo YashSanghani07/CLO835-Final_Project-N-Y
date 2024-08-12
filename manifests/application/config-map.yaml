@@ -4,6 +4,6 @@ metadata:
   name: clo835
   namespace: final
 data:
-  BACKGROUND_IMAGE: "https://privatebucketclo835.s3.amazonaws.com/white.jpg"
+  BACKGROUND_IMAGE: "https://mybucketclo835.s3.amazonaws.com/Day.jpg"
   GROUP_NAME: "N&Y"
   GROUP_MEMBERS: "Ney & Yash"
